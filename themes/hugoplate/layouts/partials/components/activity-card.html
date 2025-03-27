@@ -1,0 +1,15 @@
+<div class="bg-light  rounded p-8">
+  {{ $image:= .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+  {{ end }}
+  <h4 class="mb-3 text-center">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h4>
+  <p class="mb-4">
+    {{ .Summary }}
+  </p>
+  <div class="mt-8 mb-4 text-center">
+    <a href="{{ .RelPermalink }}" class="btn btn-primary">Explore <i class="fa fa-arrow-right pl-2"></i></a>
+  </div>
+</div>

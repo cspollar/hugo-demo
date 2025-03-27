@@ -1,0 +1,64 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Food"
+url = "/food"
+weight = 2
+
+[[main]]
+name = "Lodging"
+url = "/lodging"
+weight = 3
+
+[[main]]
+name = "Activities"
+url = "/activities"
+weight = 4
+
+[[main]]
+name = "Transportation"
+url = "/transportation"
+weight = 5
+
+[[main]]
+name = "FAQ"
+url = "/faq"
+weight = 6
+
+# footer menu
+# main menu
+[[footer]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "Food"
+url = "/food"
+weight = 2
+
+[[footer]]
+name = "Lodging"
+url = "/lodging"
+weight = 3
+
+[[footer]]
+name = "Activities"
+url = "/activities"
+weight = 4
+
+[[footer]]
+name = "Transportation"
+url = "/transportation"
+weight = 5
+
+[[footer]]
+name = "FAQ"
+url = "/faq"
+weight = 6
