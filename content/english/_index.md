@@ -7,6 +7,6 @@ banner:
   button:
     enable: True
     label: "Explore Activities"
-    link: "/activities"
+    link: "activities"
 ---
 <!-- Photo by Ingo Joseph from Pexels: https://www.pexels.com/photo/island-covered-with-green-trees-under-the-clear-skies-188029/ -->
